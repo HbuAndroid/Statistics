@@ -1,4 +1,4 @@
-开发环境：Android studio 3.0.1 ，Gradle 4.1
+# 开发环境：Android studio 3.0.1 ，Gradle 4.1
 
 ## Statistics
 - 一个用于统计Android手机应用使用情况的APP
