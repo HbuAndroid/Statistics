@@ -46,7 +46,6 @@ public class PiePolylineChartActivity extends DemoBase implements OnChartValueSe
     private PieChart mChart;
     private int style = StatisticsInfo.DAY;
     private long totaltime;
-
     private Typeface tf;
 
     @Override
@@ -375,9 +374,8 @@ public class PiePolylineChartActivity extends DemoBase implements OnChartValueSe
 
         String s1 = "应用数据统计";
         String s2;
-        if(style == StatisticsInfo.WEEK) {
+        if(style == StatisticsInfo.WEEK)
             s2 = "一周内应用使用情况";
-        }
         else if(style == StatisticsInfo.MONTH)
             s2 = "30天应用使用情况";
         else if(style == StatisticsInfo.YEAR)
@@ -400,9 +398,7 @@ public class PiePolylineChartActivity extends DemoBase implements OnChartValueSe
 
         if (e == null)
             return;
-        Log.i("VAL SELECTED",
-                "Value: " + e.getY() + ", xIndex: " + e.getX()
-                        + ", DataSet index: " + h.getDataSetIndex());
+        Log.i("VAL SELECTED","Value: " + e.getY() + ", xIndex: " + e.getX()  + ", DataSet index: " + h.getDataSetIndex());
     }
 
     @Override

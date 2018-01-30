@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+
     private boolean isStatAccessPermissionSet(Context c) throws PackageManager.NameNotFoundException {
         PackageManager pm = c.getPackageManager();
         ApplicationInfo info = pm.getApplicationInfo(c.getPackageName(),0);

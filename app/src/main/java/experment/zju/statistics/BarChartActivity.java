@@ -437,9 +437,7 @@ public class BarChartActivity extends DemoBase implements OnSeekBarChangeListene
         Log.i("bounds", bounds.toString());
         Log.i("position", position.toString());
 
-        Log.i("x-index",
-                "low: " + mChart.getLowestVisibleX() + ", high: "
-                        + mChart.getHighestVisibleX());
+        Log.i("x-index","low: " + mChart.getLowestVisibleX() + ", high: " + mChart.getHighestVisibleX());
 
         MPPointF.recycleInstance(position);
     }
